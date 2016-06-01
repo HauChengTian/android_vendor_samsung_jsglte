@@ -147,7 +147,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/jsglte/proprietary/lib/C13QS_libchromatix_imx135_golfshot.so:system/lib/C13QS_libchromatix_imx135_golfshot.so \
     vendor/samsung/jsglte/proprietary/lib/C13QL_libchromatix_s5k3l2xx_common_1080p_b.so:system/lib/C13QL_libchromatix_s5k3l2xx_common_1080p_b.so \
     vendor/samsung/jsglte/proprietary/lib/libchromatix_imx134_snapshot.so:system/lib/libchromatix_imx134_snapshot.so \
-    vendor/samsung/jsglte/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/samsung/jsglte/proprietary/lib/D13QS_libchromatix_imx135_uhd_video.so:system/lib/D13QS_libchromatix_imx135_uhd_video.so \
     vendor/samsung/jsglte/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/samsung/jsglte/proprietary/lib/C13QL_libchromatix_s5k3l2xx_common_res2.so:system/lib/C13QL_libchromatix_s5k3l2xx_common_res2.so \
@@ -203,7 +202,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/jsglte/proprietary/lib/libchromatix_s5k3l2xx_preview.so:system/lib/libchromatix_s5k3l2xx_preview.so \
     vendor/samsung/jsglte/proprietary/lib/libchromatix_s5k6b2yx_default_video.so:system/lib/libchromatix_s5k6b2yx_default_video.so \
     vendor/samsung/jsglte/proprietary/lib/C13QS_libchromatix_imx135_common_1080p_s.so:system/lib/C13QS_libchromatix_imx135_common_1080p_s.so \
-    vendor/samsung/jsglte/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/samsung/jsglte/proprietary/lib/hw/sensors.msm8974.so:system/lib/hw/sensors.msm8974.so \
     vendor/samsung/jsglte/proprietary/lib/hw/camera.vendor.msm8974.so:system/lib/hw/camera.vendor.msm8974.so \
     vendor/samsung/jsglte/proprietary/lib/libchromatix_imx134_preview.so:system/lib/libchromatix_imx134_preview.so \
@@ -221,7 +219,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/jsglte/proprietary/lib/libchromatix_s5k6b2yx_vt_hd.so:system/lib/libchromatix_s5k6b2yx_vt_hd.so \
     vendor/samsung/jsglte/proprietary/lib/libchromatix_s5k3l2xx_hfr_1080p_b.so:system/lib/libchromatix_s5k3l2xx_hfr_1080p_b.so \
     vendor/samsung/jsglte/proprietary/lib/C13QL_libchromatix_s5k3l2xx_preview.so:system/lib/C13QL_libchromatix_s5k3l2xx_preview.so \
-    vendor/samsung/jsglte/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/samsung/jsglte/proprietary/lib/libchromatix_imx135_common_res0.so:system/lib/libchromatix_imx135_common_res0.so \
     vendor/samsung/jsglte/proprietary/lib/C13QS_libchromatix_imx135_common.so:system/lib/C13QS_libchromatix_imx135_common.so \
     vendor/samsung/jsglte/proprietary/lib/libvdis.so:system/lib/libvdis.so \
@@ -284,7 +281,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/jsglte/proprietary/lib/libchromatix_imx134_golfshot.so:system/lib/libchromatix_imx134_golfshot.so \
     vendor/samsung/jsglte/proprietary/lib/C13QL_libchromatix_s5k3l2xx_golfshot.so:system/lib/C13QL_libchromatix_s5k3l2xx_golfshot.so \
     vendor/samsung/jsglte/proprietary/lib/C13QL_libchromatix_s5k3l2xx_default_video.so:system/lib/C13QL_libchromatix_s5k3l2xx_default_video.so \
-    vendor/samsung/jsglte/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/samsung/jsglte/proprietary/lib/libchromatix_imx135_common.so:system/lib/libchromatix_imx135_common.so \
     vendor/samsung/jsglte/proprietary/lib/libmmcamera_s5k6b2yx.so:system/lib/libmmcamera_s5k6b2yx.so \
     vendor/samsung/jsglte/proprietary/lib/libchromatix_imx135_golfshot.so:system/lib/libchromatix_imx135_golfshot.so \
@@ -325,8 +321,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/jsglte/proprietary/etc/C13QL_s5k3l2xx_module_info.xml:system/etc/C13QL_s5k3l2xx_module_info.xml \
     vendor/samsung/jsglte/proprietary/etc/Global_cal.acdb:system/etc/Global_cal.acdb \
     vendor/samsung/jsglte/proprietary/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
-    vendor/samsung/jsglte/proprietary/etc/clatd.conf:system/etc/clatd.conf \
-    vendor/samsung/jsglte/proprietary/etc/gps.conf:system/etc/gps.conf \
     vendor/samsung/jsglte/proprietary/etc/C13QS_imx135_module_info.xml:system/etc/C13QS_imx135_module_info.xml \
     vendor/samsung/jsglte/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
     vendor/samsung/jsglte/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
@@ -334,7 +328,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/jsglte/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
     vendor/samsung/jsglte/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
     vendor/samsung/jsglte/proprietary/etc/D13QS_imx135_module_info.xml:system/etc/D13QS_imx135_module_info.xml \
-    vendor/samsung/jsglte/proprietary/etc/sap.conf:system/etc/sap.conf \
     vendor/samsung/jsglte/proprietary/etc/General_cal.acdb:system/etc/General_cal.acdb \
     vendor/samsung/jsglte/proprietary/etc/Hdmi_cal.acdb:system/etc/Hdmi_cal.acdb \
     vendor/samsung/jsglte/proprietary/etc/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb \
