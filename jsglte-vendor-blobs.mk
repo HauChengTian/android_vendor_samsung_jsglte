@@ -203,6 +203,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/jsglte/proprietary/lib/C13QS_libchromatix_imx135_common_1080p_s.so:system/lib/C13QS_libchromatix_imx135_common_1080p_s.so \
     vendor/samsung/jsglte/proprietary/lib/hw/sensors.msm8974.so:system/lib/hw/sensors.msm8974.so \
     vendor/samsung/jsglte/proprietary/lib/hw/camera.vendor.msm8974.so:system/lib/hw/camera.vendor.msm8974.so \
+    vendor/samsung/jsglte/proprietary/lib/modules/wlan.ko:system/lib/modules/wlan.ko \
     vendor/samsung/jsglte/proprietary/lib/libchromatix_imx134_preview.so:system/lib/libchromatix_imx134_preview.so \
     vendor/samsung/jsglte/proprietary/lib/C13QS_libchromatix_imx135_common_res3.so:system/lib/C13QS_libchromatix_imx135_common_res3.so \
     vendor/samsung/jsglte/proprietary/lib/libchromatix_s5k3l2xx_hfr_120.so:system/lib/libchromatix_s5k3l2xx_hfr_120.so \
