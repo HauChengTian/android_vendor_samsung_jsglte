@@ -157,7 +157,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/jsglte/proprietary/lib/C13QS_libTs_J_Accm.so:system/lib/C13QS_libTs_J_Accm.so \
     vendor/samsung/jsglte/proprietary/lib/D13QL_libTsAf.so:system/lib/D13QL_libTsAf.so \
     vendor/samsung/jsglte/proprietary/lib/libchromatix_imx134_common.so:system/lib/libchromatix_imx134_common.so \
-    vendor/samsung/jsglte/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/samsung/jsglte/proprietary/lib/libchromatix_imx134_hfr_720p_b.so:system/lib/libchromatix_imx134_hfr_720p_b.so \
     vendor/samsung/jsglte/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     vendor/samsung/jsglte/proprietary/lib/libchromatix_s5k3l2xx_common.so:system/lib/libchromatix_s5k3l2xx_common.so \
