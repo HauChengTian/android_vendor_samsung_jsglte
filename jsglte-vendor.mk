@@ -314,6 +314,13 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/jsglte/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
     vendor/samsung/jsglte/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so
 
+# NFC
+PRODUCT_COPY_FILES += \
+    vendor/samsung/jsglte/proprietary/vendor/firmware/bcm2079xB4_firmware.ncd:system/vendor/firmware/bcm2079xB4_firmware.ncd \
+    vendor/samsung/jsglte/proprietary/vendor/firmware/bcm2079xB4_pre_firmware.ncd:system/vendor/firmware/bcm2079xB4_pre_firmware.ncd \
+    vendor/samsung/jsglte/proprietary/vendor/firmware/bcm2079xB5_firmware_20793.ncd:system/vendor/firmware/bcm2079xB5_firmware_20793.ncd \
+    vendor/samsung/jsglte/proprietary/vendor/firmware/bcm2079xB5_pre_firmware_20793.ncd:system/vendor/firmware/bcm2079xB5_pre_firmware_20793.ncd
+
 # Radio
 PRODUCT_COPY_FILES += \
     vendor/samsung/jsglte/proprietary/vendor/bin/efsks:system/vendor/bin/efsks \
